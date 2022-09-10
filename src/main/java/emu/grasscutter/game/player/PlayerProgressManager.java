@@ -57,7 +57,7 @@ public class PlayerProgressManager extends BasePlayerDataManager {
 
     // Set of open states that are never unlocked, whether they fulfill the conditions or not.
     public static final Set<Integer> BLACKLIST_OPEN_STATES = Set.of(
-    48      // blacklist OPEN_STATE_LIMIT_REGION_GLOBAL to make Meledy happy. =D Remove this as soon as quest unlocks are fully implemented.
+    99      // blacklist OPEN_STATE_LIMIT_REGION_GLOBAL to make Meledy happy. =D Remove this as soon as quest unlocks are fully implemented.
     );
 
     // Set of open states that are set per default for all accounts. Can be overwritten by an entry in `map`.
